@@ -1364,7 +1364,7 @@ declare module PIXI {
 
         width: number;
         height: number;
-        style: TextStyle;
+        style: ITextStyleStyle;
         text: string;
 
         protected updateText(respectDirty?: boolean): void;
